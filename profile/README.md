@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🚜 Realistic Farming
+<img src="https://raw.githubusercontent.com/Realistic-Farming/.github/main/profile/logo.png" width="120" alt="Realistic Farming" />
+
+# Realistic Farming
 
 ### An FS25 mod suite by **TheCodingDad**
 
