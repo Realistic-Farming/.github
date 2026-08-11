@@ -9,7 +9,7 @@
 *Realism, one system at a time: income, costs, soil, livestock, labor, and markets, on a shared core-services foundation. Built to work together.*
 
 ![Farming Simulator 25](https://img.shields.io/badge/Farming%20Simulator-25-7cb342?style=for-the-badge)
-![Mods](https://img.shields.io/badge/mods-21-2e7d32?style=for-the-badge)
+![Mods](https://img.shields.io/badge/mods-20-2e7d32?style=for-the-badge)
 ![License](https://img.shields.io/badge/play-free-1565c0?style=for-the-badge)
 
 </div>
@@ -84,10 +84,7 @@ Shared infrastructure that every companion mod can lean on. Each companion runs 
 | 🎲 **[Random World Events](https://github.com/Realistic-Farming/FS25_RandomWorldEvents)** | 43+ dynamic events and a physics overhaul. No two playthroughs are the same. |
 | 🤝 **[Pro Staff Co-Op](https://github.com/Realistic-Farming/FS25_ProStaffCoOp)** | A 20-level cooperative progression backbone: shared goals and staff advancement across the suite. |
 
-### 🧰 Tools
-| Tool | What it does |
-|-----|--------------|
-| 🛠️ **[Soil Layer Installer](https://github.com/Realistic-Farming/FS25_SoilLayerInstaller)** | One-click patch any map mod with per-pixel soil nutrient layers for Soil Fertilizer. |
+> **Note:** the Soil Layer Installer is **no longer needed**. Soil Fertilizer builds its per-pixel soil layers at runtime on any map, so the old one-click map patch is retired. If you already ran it, your map keeps working as a fallback; new installs should just skip it.
 
 ---
 
