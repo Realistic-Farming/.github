@@ -37,6 +37,17 @@ Underneath the mods you play with sits a set of **core services**: shared plumbi
 
 ---
 
+## 📟 One suite home in the pause menu
+
+Open the **Esc** menu and the Realistic Farming entry is one suite home, not a row of separate mod tabs. The shared chrome keeps a side column with the module list and lime arrows to switch, and a main pane showing the active mod's glance. It looks and behaves the same whether you have one mod or many.
+
+- **One door.** When a mod joins this system, its old separate Esc/PDA tab is replaced by the single Realistic Farming entry. No second icon, no duplicated suite story.
+- **Grows with what you have.** The module list only shows the mods you have installed. One mod means one entry; several combine into one menu.
+- **Any capable mod can host.** The chrome is peer-hosted: a capable companion hosts when it is alone or elected, and the others register into it. **Soil Fertilizer** ships the reference implementation today; the rest of the suite joins as its module briefs are approved.
+- **Glance, not a rebuild.** The pause-menu PDA is a quick look while you are stopped. Deep workflows stay in Farm Tablet. The two complement each other; neither replaces the other.
+
+---
+
 ## 🧱 Core Services (the foundation)
 
 Shared infrastructure that every companion mod can lean on. Each companion runs fine without them and simply gains reliability when they are present, so you only ever add what you want.
