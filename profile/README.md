@@ -9,7 +9,7 @@
 *Realism, one system at a time: income, costs, soil, livestock, labor, and markets, on a shared core-services foundation. Built to work together.*
 
 ![Farming Simulator 25](https://img.shields.io/badge/Farming%20Simulator-25-7cb342?style=for-the-badge)
-![Mods](https://img.shields.io/badge/mods-20-2e7d32?style=for-the-badge)
+![Mods](https://img.shields.io/badge/mods-21-2e7d32?style=for-the-badge)
 ![License](https://img.shields.io/badge/play-free-1565c0?style=for-the-badge)
 
 </div>
@@ -20,7 +20,7 @@
 
 The suite has a center of gravity: **Farm Tablet**. Open it in-game (default **T**) and it *auto-detects* the other mods, turning each one into an app. Your whole farm economy, soil, livestock, labor, and market data live in one place.
 
-Underneath the mods you play with sits a set of **core services**: shared plumbing for saving, multiplayer sync, settings, on-screen HUD, and economic time. You do not interact with them directly. They just make the rest of the suite fast, reliable, and safe in multiplayer.
+Underneath the mods you play with sits a set of **core services**: shared plumbing for saving, multiplayer sync, settings, on-screen HUD, economic time, and weather. You do not interact with them directly. They just make the rest of the suite fast, reliable, and safe in multiplayer.
 
 > **New here?** Install **Farm Tablet** first, then add the systems you want. Each mod works on its own, but together they form a single connected farm-management layer.
 
@@ -37,6 +37,7 @@ Shared infrastructure that every companion mod can lean on. Each companion runs 
 | ⚙️ **[Settings Hub](https://github.com/Realistic-Farming/FS25_SettingsHub)** | Settings bedrock. A throttled async queue applies heavy setting changes smoothly, with server-synced admin settings in multiplayer. |
 | 🖥️ **[Master HUD](https://github.com/Realistic-Farming/FS25_MasterHUD)** | UI bedrock. One shared draw loop renders every companion overlay in a pull model to cut per-frame HUD overhead. |
 | ⏱️ **[Time Guard](https://github.com/Realistic-Farming/FS25_TimeGuard)** | Economic-time bedrock. One canonical calendar clock so every economy mod accrues and settles on the same day, month, and year. |
+| 🌦️ **[Weather Guard](https://github.com/Realistic-Farming/FS25_WeatherGuard)** | Weather bedrock. One reading of the sky the whole suite agrees on: current conditions, the forward forecast, and a shared climate dial. It publishes the weather and never decides what a mod does with it. |
 
 ---
 
@@ -109,6 +110,7 @@ flowchart TD
         SH["⚙️ Settings Hub"]
         MH["🖥️ Master HUD"]
         TG["⏱️ Time Guard"]
+        WG["🌦️ Weather Guard"]
     end
 
     T --- APPS
