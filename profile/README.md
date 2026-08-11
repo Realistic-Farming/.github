@@ -16,6 +16,17 @@
 
 ---
 
+## 🌐 Community
+
+| Where | What it is |
+|-------|------------|
+<!-- PORTAL_LINK_BEGIN -->
+| 🌐 **[FS25 Portal](https://displays-clarke-imposed-switches.trycloudflare.com)** | Changelogs, the roadmap, and posts from the team. |
+<!-- PORTAL_LINK_END -->
+| 🐙 **[GitHub org](https://github.com/Realistic-Farming)** | All the mods and core services, here. |
+
+---
+
 ## 🌾 Start here
 
 The suite has a center of gravity: **Farm Tablet**. Open it in-game (default **T**) and it *auto-detects* the other mods, turning each one into an app. Your whole farm economy, soil, livestock, labor, and market data live in one place.
