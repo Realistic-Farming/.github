@@ -16,6 +16,19 @@
 
 ---
 
+## 👥 Who we are
+
+The suite is built by four people:
+
+| Who | What they do |
+|-----|--------------|
+| **Tison** (TheCodingDad) | Builds the mods and ships the releases. |
+| **Arissani** | Designs the systems and how they fit together. |
+| **WizardlyPayload** | Crafts the UI, HUD, and the shared Esc and tablet chrome. |
+| **Sasha** | Community manager. Handles releases, notes, and player reports. |
+
+---
+
 ## 🌐 Community
 
 | Where | What it is |
