@@ -93,25 +93,35 @@ Shared infrastructure that every companion mod can lean on. Each companion runs 
 Farm Tablet is the front-end. The companion mods are the engines. The core services are the shared foundation they all sit on.
 
 ```mermaid
-flowchart TD
+flowchart TB
     T["📱 Farm Tablet<br/>(the hub)"]
 
     subgraph APPS["Companion mods"]
         direction LR
-        I["💵 Income"]
-        X["🧾 Tax"]
-        F["⛽ Fuel Costs"]
-        W["👷 Worker Costs"]
-        M["📈 Market Dynamics"]
-        S["🧪 Soil Fertilizer"]
-        C["💧 Crop Stress"]
-        D["🐄 Dairy Core"]
-        P["🤝 Pro Staff Co-Op"]
-        N["👥 NPC Favor"]
-        R["🎲 World Events"]
+        subgraph ECO["💰 Economy & Finance"]
+            I["💵 Income"]
+            X["🧾 Tax"]
+            F["⛽ Fuel Costs"]
+            W["👷 Worker Costs"]
+            M["📈 Market Dynamics"]
+            WT["🏷️ Workplace Triggers"]
+        end
+        subgraph LAND["🌱 Land & Crops"]
+            S["🧪 Soil Fertilizer"]
+            C["💧 Crop Stress"]
+            FD["🏭 Fertilizer Depot"]
+        end
+        subgraph LIV["🐄 Livestock"]
+            D["🐄 Dairy Core"]
+        end
+        subgraph WORLD["👥 Life & World"]
+            P["🤝 Pro Staff Co-Op"]
+            N["👥 NPC Favor"]
+            R["🎲 World Events"]
+        end
     end
 
-    subgraph CORE["🧱 Core services (foundation)"]
+    subgraph CORE["🧱 Core services (the foundation)"]
         direction LR
         SL["🗂️ State Ledger"]
         NS["🔌 Network Sync"]
@@ -121,8 +131,11 @@ flowchart TD
         WG["🌦️ Weather Guard"]
     end
 
-    T --- APPS
-    APPS --- CORE
+    T ==>|auto-detects and launches as apps| APPS
+    APPS ==>|lean on when present| CORE
+
+    classDef hub fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
+    class T hub;
 ```
 
 Each companion is optional. Farm Tablet shows an app only when that mod is installed, so the tablet grows with your setup. Core services are optional too: a companion detects them when present and runs on its own quiet fallback when they are absent, so nothing hard-breaks if one is missing.
