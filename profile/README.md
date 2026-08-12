@@ -34,7 +34,7 @@ The suite is built by four people:
 | Where | What it is |
 |-------|------------|
 <!-- PORTAL_LINK_BEGIN -->
-| 🌐 **[FS25 Portal](https://displays-clarke-imposed-switches.trycloudflare.com)** | Changelogs, the roadmap, and posts from the team. |
+| 🌐 **[FS25 Portal](https://landscapes-architects-architect-hybrid.trycloudflare.com)** | Changelogs, the roadmap, and posts from the team. |
 <!-- PORTAL_LINK_END -->
 | 🐙 **[GitHub org](https://github.com/Realistic-Farming)** | All the mods and core services, here. |
 
